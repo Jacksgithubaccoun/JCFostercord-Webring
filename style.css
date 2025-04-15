@@ -1,24 +1,55 @@
+/* Body Styling */
 body {
-  font-family: system-ui, sans-serif;
-  max-width: 600px;
-  margin: auto;
-  padding: 2rem;
+  font-family: system-ui, sans-serif;  /* System font stack for modern look */
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box; /* Prevents padding from affecting layout */
+  background-color: #fff; /* Keep background simple */
 }
 
+/* Webring Widget Styling */
 .webring-widget {
-  margin-top: 2rem;
-  padding: 1em;
+  margin-top: 2rem; /* Space between the content above and widget */
+  padding: 1rem;
   text-align: center;
-  background: #f2f2f2;
-  border-radius: 8px;
+  background: #f9f9f9; /* Neutral background */
+  border-radius: 10px;  /* Rounded corners for softer look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow for separation */
+  max-width: 100%;  /* Allow the widget to stretch based on available width */
+  width: auto;
+  box-sizing: border-box;  /* Make sure padding doesn't break layout */
 }
 
+/* Webring Link Styling */
 .webring-widget a {
   margin: 0 0.5em;
   color: #0077cc;
   text-decoration: none;
+  font-weight: 600; /* Slightly bolder for readability */
 }
 
 .webring-widget a:hover {
   text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .webring-widget {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  body {
+    padding: 1rem;
+  }
+
+  .webring-widget a {
+    margin: 0.5rem 0; /* Stack links on smaller screens */
+    display: block;
+  }
 }
