@@ -1,6 +1,6 @@
 (async function () {
   const currentUrl = window.location.origin.replace(/\/$/, "");
-  const response = await fetch("members.json");
+  const response = await fetch("https://jacksgithubaccoun.github.io/JCFostercord-Webring/members.json");
   const sites = await response.json();
 
   const index = sites.findIndex(site => site.url.replace(/\/$/, "") === currentUrl);
