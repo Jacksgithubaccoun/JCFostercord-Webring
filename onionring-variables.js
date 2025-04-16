@@ -7,10 +7,10 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://example.com/',
-'https://example.com/',
-'https://example.com/',
-'https://example.com/'
+'https://whogaflunk.org/',
+'hhttps://pompousfurball.github.io/UndertheStars.github.io/',
+'https://dinosour.neocities.org/',
+'https://stuff-i-catalogued.neocities.org/'
 ];
 
 //the name of the ring
