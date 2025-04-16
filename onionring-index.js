@@ -8,7 +8,7 @@
 var tag = document.getElementById('index');
 regex = /^https:\/\/|\/$/g; //strips the https:// and trailing slash off the urls for aesthetic purposes
 
-list = "https://pompousfurball.github.io/UndertheStars.github.io/", "https://dinosour.neocities.org/", "https://stuff-i-catalogued.neocities.org/", "https://whogaflunk.org/";
+list = "";
 for (i = 0; i < sites.length; i++) {
   list += `<li><a href='${sites[i]}'>${sites[i].replace(regex, "")}</a></li>`;
 }
