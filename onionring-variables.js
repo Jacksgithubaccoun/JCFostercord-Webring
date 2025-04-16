@@ -8,7 +8,7 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://whogaflunk.org/',
-'hhttps://pompousfurball.github.io/UndertheStars.github.io/',
+'https://pompousfurball.github.io/UndertheStars.github.io/',
 'https://dinosour.neocities.org/',
 'https://stuff-i-catalogued.neocities.org/'
 ];
